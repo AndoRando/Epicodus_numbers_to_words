@@ -1,0 +1,33 @@
+2 345 619 987 614
+|
+416 789 916 543 2
+
+.to_s().split('').reverse()
+
+"four"
+
+override with -> "fourteen"
+
+reached hundred digit -> "hundred" -> include "six"
+
+reached thousand digit -> "thousand" -> include "seven"
+
+"eighty"
+
+reached hundred thousand digit -> "hundred" -> include "nine"
+
+reached million digit -> "million" -> include "nine"
+
+override "nine" with "nineteen"
+
+reached hundred million digit -> "hundred" -> include "six"
+
+reached billion digit -> "billion" -> include "five"
+
+"forty"
+
+reached hundred billion digit -> "hundred" -> include "three"
+
+reached trillion digit -> "trillion" -> include "two"
+
+------ AND THEN FLIP THE ARRAY OF STRINGS, THEN CONCAT -------
